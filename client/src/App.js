@@ -54,6 +54,7 @@ function App() {
       <input ref={todoNameRef} type='text' />
       <button onClick={handleAddTodo}>Add Todo</button>
       <button onClick={handleClearTodos}>Clear Complete</button>
+      <button>Teste</button>
       <div>{todos.filter(todo => !todo.complete).length} left to do</div>
       <div>Fetched data: {!data ? "Loading..." : data}</div>
     </>
